@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Research</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Yu Group's Research Website" />
+		<meta name="keywords" content="yugroup" />
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+	</head>
+	<body class="no-sidebar">
+
+		<!-- Header -->
+		<div id="header-wrapper">
+				<div id="header" class="container">
+
+					<!-- Logo -->
+						<h1 id="logo"><a href="index.html">YU Group</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="people.html">People</a></li>
+								<li><a href="research.html">Research</a></li>
+								<li class="break"><a href="publications.html">Publications</a></li>
+								<li><a href="code.html">Code</a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div class="wrapper">
+				<center>
+					<header>
+						<h2>Research Projects</h2>
+					</header>
+				</center>
+				<div class="container" id="main">
+
+
+					<div class="row features">
+					<header>
+						<h2>Interpretable machine learning</h2>
+						Jamie Murdoch, Chandan Singh
+					</header>
+					<p>
+					Deep neural networks (DNNs) have achieved impressive predictive performance due to their ability to learn complex, non-linear relationships between variables. However, the inability to effectively visualize these relationships has led to DNNs being characterized as black boxes and consequently limited their applications. To ameliorate these problems, we have introduced multiple new algorithms for interpreting individual decisions made by both recurrent and convolutional neural networks, culminating in agglomerative contextual decomposition (ACD). Given a prediction from a trained DNN, ACD produces a hierarchical clustering of the input features, along with the contribution of each cluster to the final prediction. This hierarchy is optimized to identify clusters of features that the DNN learned are predictive.  
+					</p>
+					</div>
+
+					<div class="row features">
+					<header>
+						<h2>Information Extraction for Pathology Reports</h2>
+						Nicholas Altieri
+					</header>
+					<p>
+					There exists decades of pathology reports which could be used to analyze the efficacy of treatments or to augment disease diagnoses. However, they are currently locked away in free-text, which prevents the application of statistical techniques. Our group is currently developing methods to convert these pathology reports across heterogeneous cancers and institutions into a structured database so that statistical methods can be brought to bear on them.  
+ 				</p>
+					</div>
+
+
+					<div class="row features">
+					<header>
+						<h2>Causal inference: heterogeneous treatment effect estimation</h2>
+						Sören Künzel, Simon Walter
+					</header>
+					<p>
+					Most studies investigate phenomena that have different manifestations in different circumstances and these differences cannot be captured by statistics that estimate population average or sample average effects. Identifying this heterogeneity has assumed increasing importance in the last quarter century in several domains. For example, technology companies now conduct experiments on tens or hundreds of millions of subjects, which provides the power to detect fine-grained heterogeneity; this is desirable in practice because many interventions have zero effect on the  outcome of interest for all but a small fraction of subjects. Similarly, there is increasing focus in medicine in providing treatments that are tailored to the peculiarities of individual patients. There is a rich literature on heterogeneous treatment effect estimation, beginning at least as early as 1865. 
+</br>
+Our group suggested  a new procedure for heterogeneous treatment effect estimation, called the X-learner that enjoys some optimality properties: the X-learner is a two stage meta-algorithm that first models the unrealized counterfactual and then applies an ordinary regression model to the difference of the actual and counterfactual outcome to produce estimators of the conditional average treatment effect; this procedure is shown to achieve a minimax rate under certain conditions. 
+</br>
+In separate work, we suggest refinements to an existing method called the modified outcome method that render the procedure doubly robust — meaning that it consistently estimates the treatment effect if only one of the model for the counterfactual and probability of treatment assignment is correct. 	
+					</p>
+					</div>
+
+
+					<div class="row features">
+					<header>
+						<h2>Causal inference: estimating liver transplant benefit</h2>
+						Rebecca Barter
+					</header>
+					<p>
+					Among those with serious liver diseases, transplantation is often the only viable chance of long-term survival. Unfortunately, livers from deceased donors are a scarce resource, and more people are in need of a transplant than there are livers available. As a result, a decision must be made for each transplantable liver concerning who will receive it. Currently, livers are allocated based on a sickest-first system. However, the sickest patients often correspond to those who are least likely to thrive with a transplant. In this project, together with Professor Jasjeet Sekhon, our goal is to investigate the viability of an alternative system that allocates livers to those with the greatest estimated survival-benefit. However, since survival benefit is defined as the difference between survival with and without a transplant, it is fundamentally unobservable, and since the underlying data is necessarily observational, it is also notoriously difficult to estimate.
+					
+					</p>
+					</div>
+
+					<div class="row features">
+					<header>
+						<h2>Personalized medicine: predicting surgical site infections</h2>
+						Rebecca Barter
+					</header>
+					<p>
+					Surgical Site Infections (SSI) are dangerous post-operative complications that increase mortality, morbidity, length of hospital stay, healthcare expenditure, and the frequency of poor surgical outcomes. Together with Dr Prabhu Shankar and Parul Dayal at UC Davis, we are utilizing complex data from electronic medical records to develop machine learning algorithms capable of predicting which patients are more likely to have an SSI. Proving accurate guiding predictions for medical practitioners is critical for taking preventative measures, both before and after surgery.
+	
+					</p>
+					</div>
+
+					<div class="row features">
+					<header>
+						<h2>Gene expresssion study</h2>
+						Karl Kumbier, Yu Wang
+					</header>
+					<p>
+					A fundamental problem in systems biology is to understand how regulatory interactions drive development and function of living organisms. We are working with the Sue Celniker and Ben Brown Labs at Lawrence Berkeley National Laboratory to investigate interactions among transcription factors (TFs) in Drosophila embryos. As part of this ongoing collaboration, we developed stability-driven Nonnegative Matrix Factorization (staNMF) to decompose gene expression images into “principal patterns” (PPs) that can be used to relate TFs to pre-organ regions. In addition, we developed iterative Random Forests (iRF) to identify stable, high-order interactions in high-throughput genomic data. Our ongoing work builds on these methods to identify high-quality experimental targets for wet lab validation.
+					</p>
+					</div>
+
+					<div class="row features">
+					<header>
+						<h2>Sampling Algorithms</h2>
+						Raaz Dwivedi, Yuansi Chen
+					</header>
+					<p>
+					Drawing samples from a known distribution is a core computational challenge common to many disciplines, with applications in statistics, probability, operations research, and other areas involving stochastic models. Recent decades have witnessed great success of Markov Chain
+Monte Carlo (MCMC) algorithms. These methods are based on constructing a Markov chain whose 
+stationary distribution is equal to the target distribution, and then drawing samples by 
+simulating the chain for a certain number of steps. From a theoretical view point, a core
+challenge is to provide convergence guarantees for such algorithms, namely the number of steps
+required to provide an approximate sample from the target distribution.
+In our work, we provide theoretical guarantees for several sampling algorithms as a function
+of the problem parameters. A few algorithms that we analyzed include: Randomized interior
+point methods for sampling from polytopes and certain Langevin algorithms to sample from log-concave 
+distributions. Such guarantees can then be used for providing estimates for expectations of functions,
+probabilities of events and volume of certain sets.
+					</p>
+					</div>
+
+
+
+					<div class="row features">
+					<header>
+						<h2>Neuroscience: understanding The Visual Pathway</h2>
+						Reza Abbasi, Yuansi Chen, Chandan Singh
+					</header>
+					<p>
+					The volume and quality of data recorded from the brain are constantly increasing, giving us a better view of mental processes. We collaborate with neuroscience labs, primarily the Gallant lab, to develop methodology for analyzing such data. We focus on understanding vision by studying the representation of images and videos in early visual areas. These experiments are great examples for modern statistical work: both the stimuli (a video, or sequence of images) and the response (continuous brain-scans, or electrode recordings) are high-dimensional structured objects. We develop principled methods to relate the stimuli and responses for both prediction and interpretation purposes. These include, among others, methods for feature-extraction (both learned and engineered), such as building upon the scattering transform. Additionally, we focus on building methods for interpretation including DeepTune (a method for generating stable maximally activating stimuli from deep learning models) and compression. Our ongoing work focuses on developing interpretation methods for population-level analysis.
+					</p>
+					</div>
+
+
+
+				</div>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer-wrapper">
+				<div id="copyright" class="container">
+					<ul class="menu">
+						<li>&copy; All rights reserved.</li><li>YU Group</li>
+					</ul>
+				</div>
+			</div>
+
+	</body>
+</html>
