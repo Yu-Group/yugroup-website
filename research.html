@@ -48,26 +48,27 @@
 				</center>
 				<div class="container" id="main">
 
-
-					<div class="row features">
-					<header>
-						<h3>Interpreting neural networks</h3>
-						Jamie Murdoch, Chandan Singh
-					</header>
-					<p>
-					This project is part of a broad theme running through our group on <a href="https://arxiv.org/abs/1901.04592">interpretable machine learning</a>. Deep neural networks (DNNs) have achieved impressive predictive performance due to their ability to learn complex, non-linear relationships between variables. However, the inability to effectively visualize these relationships has led to DNNs being characterized as black boxes and consequently limited their applications. To ameliorate these problems, we have introduced multiple new algorithms for interpreting individual decisions made by both recurrent and convolutional neural networks, culminating in <a href="https://openreview.net/pdf?id=SkEqro0ctQ">agglomerative contextual decomposition (ACD)</a>. Given a prediction from a trained DNN, ACD produces a hierarchical clustering of the input features, along with the contribution of each cluster to the final prediction. This hierarchy is optimized to identify clusters of features that the DNN learned are predictive.  
-					</p>
-					</div>
-
+					</br>
 					<div class="row features">
 					<header>
 						<h3>Information Extraction for Pathology Reports</h3>
-						Nicholas Altieri
+						Nicholas Altieri, Briton Park
 					</header>
 					<p>
 					There exists decades of pathology reports which could be used to analyze the efficacy of treatments or to augment disease diagnoses. However, they are currently locked away in free-text, which prevents the application of statistical techniques. Our group is currently developing methods to convert these pathology reports across heterogeneous cancers and institutions into a structured database so that statistical methods can be brought to bear on them.  
  				</p>
+					<div class="row features">
+					<header>
+						<h3>Interpreting neural networks</h3>
+					 Chandan Singh, Jamie Murdoch, Wooseok Ha, Laura Reiger
+					</header>
+					<p>
+					This project is part of a broad theme running through our group on <a href="https://arxiv.org/abs/1901.04592">interpretable machine learning</a>. Deep neural networks (DNNs) have achieved impressive predictive performance due to their ability to learn complex, non-linear relationships between variables. However, the inability to effectively visualize these relationships has led to DNNs being characterized as black boxes and consequently limited their applications. To ameliorate these problems, we have introduced multiple new algorithms for interpreting individual decisions made by neural networks. 
+					<br/>	<br/>
+					This line of work began with scoring interactions in LSTMs via <a href="https://arxiv.org/abs/1801.05453">Contextual decomposition (ICLR 2018)</a> and was later extended to generate hierarchical interpretations for a large class of neural networks, including CNNs <a href="https://openreview.net/pdf?id=SkEqro0ctQ">(ACD, ICLR 2019)</a>. We then used these techniques to improve the generalization of neural networks during training <a href="https://arxiv.org/abs/1909.13584"> (CDEP, ICML 2020)</a> and to investigate the importance of different transformations in predicting cosmological parameters <a href="https://arxiv.org/abs/2003.01926"> (TRIM, ICLR Workshop 2020)</a>.
+					</p>
 					</div>
+
 
 
 					<div class="row features">
@@ -142,7 +143,7 @@ probabilities of events and volume of certain sets.
 					<div class="row features">
 					<header>
 						<h3>Neuroscience: understanding The Visual Pathway</h3>
-						Reza Abbasi, Yuansi Chen, Chandan Singh
+						Reza Abbasi, Yuansi Chen
 					</header>
 					<p>
 					The volume and quality of data recorded from the brain are constantly increasing, giving us a better view of mental processes. We collaborate with neuroscience labs, primarily the Gallant lab, to develop methodology for analyzing such data. We focus on understanding vision by studying the representation of images and videos in early visual areas. These experiments are great examples for modern statistical work: both the stimuli (a video, or sequence of images) and the response (continuous brain-scans, or electrode recordings) are high-dimensional structured objects. We develop principled methods to relate the stimuli and responses for both prediction and interpretation purposes. These include, among others, methods for feature-extraction (both learned and engineered), such as building upon the scattering transform. Additionally, we focus on building methods for interpretation including DeepTune (a method for generating stable maximally activating stimuli from deep learning models) and compression. Our ongoing work focuses on developing interpretation methods for population-level analysis.
