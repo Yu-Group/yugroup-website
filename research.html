@@ -56,7 +56,7 @@
 					</header>
 					<p>
 					There exists decades of pathology reports which could be used to analyze the efficacy of treatments or to augment disease diagnoses. However, they are currently locked away in free-text, which prevents the application of statistical techniques. Our group is currently developing methods to convert these pathology reports across heterogeneous cancers and institutions into a structured database so that statistical methods can be brought to bear on them.  
- 				</p>
+					</p></div>
 					<div class="row features">
 					<header>
 						<h3>Interpreting neural networks</h3>
@@ -68,6 +68,20 @@
 					This line of work began with scoring interactions in LSTMs via <a href="https://arxiv.org/abs/1801.05453">Contextual decomposition (ICLR 2018)</a> and was later extended to generate hierarchical interpretations for a large class of neural networks, including CNNs <a href="https://openreview.net/pdf?id=SkEqro0ctQ">(ACD, ICLR 2019)</a>. We then used these techniques to improve the generalization of neural networks during training <a href="https://arxiv.org/abs/1909.13584"> (CDEP, ICML 2020)</a> and to investigate the importance of different transformations in predicting cosmological parameters <a href="https://arxiv.org/abs/2003.01926"> (TRIM, ICLR Workshop 2020)</a>.
 					</p>
 					</div>
+
+</br>
+<div class="row features">
+  <header>
+    <h3>Adaptive wavelets</h3>
+    Wooseok Ha, Chandan Singh
+  </header>
+  <p>
+This project aims to leverage the power of wavelets to achieve high predictive performance while maintaining interpretability and computational efficiency.
+Recent deep-learning models have achieved impressive prediction performance, but often sacrifice both of these. This line of work begins with <a href="https://arxiv.org/abs/2107.09145"> adaptive wavelet distillation (AWD)</a>, a method which aims to distill information from a trained neural network into a wavelet transform. Specifically, AWD penalizes feature attributions of a neural network in the wavelet domain to learn an effective multi-resolution wavelet transform.
+
+We show how AWD works in two real-world settings: cosmological parameter inference, in close collaboration with cosmologist Francois Lanusse, and molecular-partner prediction, with Gokul Upadhyayula, head of the advanced bioimaging center at UC Berkeley. In both cases, AWD yields a scientifically interpretable and concise model which gives predictive performance better than state-of-the-art neural networks.
+  </p>
+</div>
 
 
 
@@ -82,29 +96,6 @@
 Our group suggested  a new procedure for heterogeneous treatment effect estimation, called the X-learner that enjoys some optimality properties: the X-learner is a two stage meta-algorithm that first models the unrealized counterfactual and then applies an ordinary regression model to the difference of the actual and counterfactual outcome to produce estimators of the conditional average treatment effect; this procedure is shown to achieve a minimax rate under certain conditions. 
 </br>
 In separate work, we suggest refinements to an existing method called the modified outcome method that render the procedure doubly robust — meaning that it consistently estimates the treatment effect if only one of the model for the counterfactual and probability of treatment assignment is correct. 	
-					</p>
-					</div>
-
-
-					<div class="row features">
-					<header>
-						<h3>Causal inference: estimating liver transplant benefit</h3>
-						Rebecca Barter
-					</header>
-					<p>
-					Among those with serious liver diseases, transplantation is often the only viable chance of long-term survival. Unfortunately, livers from deceased donors are a scarce resource, and more people are in need of a transplant than there are livers available. As a result, a decision must be made for each transplantable liver concerning who will receive it. Currently, livers are allocated based on a sickest-first system. However, the sickest patients often correspond to those who are least likely to thrive with a transplant. In this project, together with Professor Jasjeet Sekhon, our goal is to investigate the viability of an alternative system that allocates livers to those with the greatest estimated survival-benefit. However, since survival benefit is defined as the difference between survival with and without a transplant, it is fundamentally unobservable, and since the underlying data is necessarily observational, it is also notoriously difficult to estimate.
-					
-					</p>
-					</div>
-
-					<div class="row features">
-					<header>
-						<h3>Personalized medicine: predicting surgical site infections</h3>
-						Rebecca Barter
-					</header>
-					<p>
-					Surgical Site Infections (SSI) are dangerous post-operative complications that increase mortality, morbidity, length of hospital stay, healthcare expenditure, and the frequency of poor surgical outcomes. Together with Dr Prabhu Shankar and Parul Dayal at UC Davis, we are utilizing complex data from electronic medical records to develop machine learning algorithms capable of predicting which patients are more likely to have an SSI. Proving accurate guiding predictions for medical practitioners is critical for taking preventative measures, both before and after surgery.
-	
 					</p>
 					</div>
 
@@ -159,7 +150,7 @@ probabilities of events and volume of certain sets.
 			<div id="footer-wrapper">
 				<div id="copyright" class="container">
 					<ul class="menu">
-						<li>&copy; All rights reserved.</li><li>YU Group</li>
+						<li>Yu Group</li>
 					</ul>
 				</div>
 			</div>
