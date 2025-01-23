@@ -29,8 +29,8 @@ def write_to_html():
 	new_tag = soup_pub.new_tag("ul")
 	main.append(new_tag)
 
-	page = requests.get("http://www.stat.berkeley.edu/~binyu/Site/Publications.html")
-
+	#page = requests.get("http://www.stat.berkeley.edu/~binyu/Site/Publications.html")
+	page = requests.get("https://binyu.stat.berkeley.edu/papers")
 	soup = BeautifulSoup(page.text)
 
 	l = soup.find_all('li')
