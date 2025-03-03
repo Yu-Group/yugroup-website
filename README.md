@@ -7,4 +7,4 @@
 - each person has 2 images (in `images` folder)
   - image1 on main page
   - image2 on personal page
-- run parsePub.py to scrape bin's publications website (overwrites our publications.html)
+- ~run parsePub.py to scrape bin's publications website (overwrites our publications.html)~ Now we just manually update the publications.html as parsePub.py is outdated and doesn't generate accurace publication history anymore.
