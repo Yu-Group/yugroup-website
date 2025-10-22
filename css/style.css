@@ -8,6 +8,9 @@
 @import url("/~yugroup/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 
+/* force 4 items per row in "Alumni" and "Previous Visiting Scholars" sections */
+.row.features > section[class~="3u"][class~="12u(narrower)"]:nth-child(4n+1) { clear: left; }
+
 /* make images contained within div */
 img{max-width:100%;}
 
